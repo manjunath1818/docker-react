@@ -4,7 +4,8 @@ https://travis-ci.com/account/repositories
 
 ----
 Required Travis Updates
-In the upcoming lecture we will be adding a script to our .travis.yml file. Due to a change in how the Jest library works with Create React App, we need to make a small modification:
+In the upcoming lecture we will be adding a script to our .travis.yml file. Due to a change in how the Jest library works with Create React App, 
+we need to make a small modification:
 
 script:
   - docker run USERNAME/docker-react npm run test -- --coverage

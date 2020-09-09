@@ -6,4 +6,4 @@ before_install:
   - docker build -t manjunathk/docker-react -f Dockerfile.dev .  
   
 script:
-  - docker run manjunathk/docker-react npm run test -- -- coverage
+  - docker run -e CI=true manjunathk/docker-react npm run test
