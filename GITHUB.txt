@@ -1,0 +1,19 @@
+https://github.com/
+
+user id: manjunath1818
+psw: ye
+
+---
+creat new repository
+
+go to cmd and the path of fromtend
+
+git init
+
+git add .
+
+git commit -m "initial commit"
+
+git remote add origin https://github.com/manjunath1818/docker-react.git
+
+git push origin master
