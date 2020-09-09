@@ -30,9 +30,12 @@ The Dockerfile would now look like this:
   COPY --from=0 /app/build /usr/share/nginx/html
 2) Upgrade to t2small instance
 
-The npm install command frequently times out on the t2.micro instance that we are using.  An easy fix is to bump up the instance type that Elastic Beanstalk is using to a t2.small.
+The npm install command frequently times out on the t2.micro instance that we are using. 
+ An easy fix is to bump up the instance type that Elastic Beanstalk is using to a t2.small.
 
-Note that a t2.small is outside of the free tier, so you will pay a tiny bit of money (likely less than one dollar if you leave it running for a few hours) for this instance.  Don't forget to close it down!  Directions for this are a few videos ahead in the lecture titled 'Environment Cleanup'.
+Note that a t2.small is outside of the free tier, 
+so you will pay a tiny bit of money (likely less than one dollar if you leave it running for a few hours) for this instance.
+  Don't forget to close it down!  Directions for this are a few videos ahead in the lecture titled 'Environment Cleanup'.
 
 3) Refactor COPY line
 
